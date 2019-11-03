@@ -6,9 +6,10 @@
     <title>Wizytówka Mateusz Bury</title>
     <meta name="description" content="Oto rozwiązanie pierwszego zadania w CodersCampie oraz pierwszy napisany przeze mnie kod" />
     <link rel="stylesheet" href="CSS.css" type="text/css" />
+    <script type="text/javascript" src="timer.js"></script>
 </head>
 
-<body>
+<body onload="odliczanie();">
 <h1 id=header>Wizytówka</h1>
 <div class="conteiner">
     <div class="box box1">
@@ -19,7 +20,9 @@
         <p> obecny zawód: </br>
         <strong> Desigh Engineer </strong> </p>
     </div>
-    <div class="box box3">zegar</div>
+    <div class="box box3">
+            <div id="zegar"></div>
+    </div>
     <div class="box box4">
         <h3 class="contact"> <em>Telefon:</em> 783863825 </h3>
         <h3 class="contact"> <em>E-mail:</em> mateuszbury1@gmail.com </h3>
@@ -77,8 +80,8 @@
             <img class="photo4" src="IMG6.jpg" alt="Zdjecie 4">
             <p class="text">Zdjęcie 4</p>
         </div>
+        <div style="clear:both;"></div>
     </div>
-    <div style="clear:both;"></div>
 </div>
 </body>
 
